@@ -4,7 +4,7 @@
       v-if="settings.showPlaylistsByAppleMusic !== false"
       class="index-row first-row"
     >
-      <div class="title"> by Apple Music </div>
+      <div class="title">我的歌单</div>
       <CoverRow
         :type="'playlist'"
         :items="byAppleMusic"
