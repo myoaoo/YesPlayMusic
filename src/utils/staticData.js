@@ -13,12 +13,6 @@ export const byAppleMusic = [
   },
   {
     coverImgUrl:
-      'https://p1.music.126.net/lgV84WlRUcgn-jCiKx-n0w==/109951165592212933.jpg',
-    name: '国语',
-    id: 8184817453,
-  },
-  {
-    coverImgUrl:
       'https://p1.music.126.net/zTkgNapG5qrxo3AtFBmpWg==/109951163613302296.jpg',
     name: '纯音乐',
     id: 8725850622,
@@ -34,6 +28,12 @@ export const byAppleMusic = [
       'https://p1.music.126.net/U10tpIUujpa7EYFvaoEHCA==/109951164459635354.jpg',
     name: '电音',
     id: 8173191976,
+  },
+  {
+    coverImgUrl:
+      'https://p2.music.126.net/GvYQoflE99eoeGi9jG4Bsw==/109951165375336156.jpg',
+    name: 'Happy Hits',
+    id: 5278068783,
   },
   {
     coverImgUrl:
