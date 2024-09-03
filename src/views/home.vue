@@ -2,11 +2,11 @@
   <div v-show="show" class="home">
     <h2>我的歌单</h2>
 	<div data-v-4e647ea8="" data-v-c54ed028="" class="cover-row" image-size="1024" style="grid-template-columns: repeat(5, 1fr); gap: 44px 24px;">
-	  <div data-v-4e647ea8="" class="item">
-	    <img data-v-68b58d79="" src="https://p1.music.126.net/FLg-ePGetDLWs58nrBbKtA==/109951164031278533.jpg?param=512y512" loading="lazy">
-		<a href="/playlist/12510385889"></a>
-	  </div>
-	</div>	
+      <div data-v-4e647ea8="" class="item">
+        <img data-v-68b58d79="" src="https://p1.music.126.net/FLg-ePGetDLWs58nrBbKtA==/109951164031278533.jpg?param=512y512" loading="lazy">
+        <a href="/playlist/12510385889"></a>
+      </div>
+    </div>
     <div
       v-if="settings.showPlaylistsByAppleMusic !== false"
       class="index-row first-row"
