@@ -14,7 +14,7 @@
     </div>
     <div class="index-row">
       <div class="title">
-		<a href="/playlist/8185045795" target="_blank">粤语</a>
+        <a href="https://yes.oaoo.top/playlist/8185045795" target="_blank">粤语</a>
       </div>
     </div>
     <div class="index-row">
