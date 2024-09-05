@@ -32,6 +32,13 @@
         <FMCard />
       </div>
     </div>
+  <div class="index-row">
+    <div class="title">mymusic</div>
+    <div class="for-you-row">
+      <!-- 在这里添加 a 标签 -->
+      <a href="https://example.com" target="_blank" class="link-button">点击进入</a>
+    </div>
+  </div>
     <div class="index-row">
       <div class="title">{{ $t('home.recommendArtist') }}</div>
       <CoverRow
@@ -67,7 +74,11 @@
     </div>
   </div>
 </template>
-
+<script>
+export default {
+  name: 'MyMusic'
+}
+</script>
 <script>
 import { toplists } from '@/api/playlist';
 import { toplistOfArtists } from '@/api/artist';
