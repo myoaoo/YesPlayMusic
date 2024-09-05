@@ -12,21 +12,19 @@
         :image-size="1024"
       />
     </div>
-	<div class="index-row">
-	  <div class="title">
-		<a href="https://yes.oaoo.top/playlist/8184817453" target="_blank">国语</a>
-		<a href="https://yes.oaoo.top/playlist/8185045795" target="_blank">粤语</a>
-		<a href="https://yes.oaoo.top/playlist/5471042889" target="_blank">英文</a>
-		<a href="https://yes.oaoo.top/playlist/8725850622" target="_blank">纯曲</a>
-		<a href="https://yes.oaoo.top/playlist/8173191976" target="_blank">电音</a>
-	  </div>
-	</div>
+    <div class="index-row">
+      <div class="title">
+        <a href="https://yes.oaoo.top/playlist/8184817453" target="_blank">国语</a>
+        <a href="https://yes.oaoo.top/playlist/8185045795" target="_blank">粤语</a>
+        <a href="https://yes.oaoo.top/playlist/5471042889" target="_blank">英文</a>
+        <a href="https://yes.oaoo.top/playlist/8725850622" target="_blank">纯曲</a>
+        <a href="https://yes.oaoo.top/playlist/8173191976" target="_blank">电音</a>
+      </div>
+    </div>
     <div class="index-row">
       <div class="title">
         {{ $t('home.recommendPlaylist') }}
-        <router-link to="/explore?category=推荐歌单">{{
-          $t('home.seeMore')
-        }}</router-link>
+        <router-link to="/explore?category=推荐歌单">{{ $t('home.seeMore') }}</router-link>
       </div>
       <CoverRow
         :type="'playlist'"
@@ -63,9 +61,7 @@
     <div class="index-row">
       <div class="title">
         {{ $t('home.charts') }}
-        <router-link to="/explore?category=排行榜">{{
-          $t('home.seeMore')
-        }}</router-link>
+        <router-link to="/explore?category=排行榜">{{ $t('home.seeMore') }}</router-link>
       </div>
       <CoverRow
         type="playlist"
@@ -192,11 +188,11 @@ export default {
   font-size: 28px;
   font-weight: 700;
   color: var(--color-text);
-  a {
-    font-size: 13px;
-    font-weight: 600;
-    opacity: 0.68;
-  }
+}
+.title a {
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.68;
 }
 
 footer {
