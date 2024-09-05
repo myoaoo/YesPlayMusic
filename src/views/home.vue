@@ -14,11 +14,7 @@
     </div>
     <div class="index-row">
       <div class="title">
-        <a href="/playlist/8184817453" target="_blank">国语</a>
-		<a href="/playlist/8185045795" target="_blank">粤语</a>
-		<a href="/playlist/5471042889" target="_blank">英文</a>
-		<a href="/playlist/8725850622" target="_blank">纯音乐</a>
-		<a href="/playlist/8173191976" target="_blank">电音</a>
+        <a href="https://example.com" target="_blank">Click Here</a>
       </div>
     </div>
     <div class="index-row">
