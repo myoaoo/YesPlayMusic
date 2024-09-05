@@ -13,58 +13,12 @@
       />
     </div>
     <div class="index-row">
-      <div class="title">我的歌单</div>
-      <div class="cover-row" style="grid-template-columns: repeat(5, 1fr); gap: 44px 24px;">
-        <div class="item">
-          <div class="cover cover-hover">
-            <img src="https://p1.music.126.net/xe1F96UCN5arTvjBTjtISQ==/100055558139748.jpg?param=300y300" loading="lazy">
-          </div>
-          <div class="text">
-            <div class="title" style="font-size: 16px;">
-              <a href="/playlist/8184817453" class="">国语</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="cover cover-hover">
-            <img src="https://p1.music.126.net/xe1F96UCN5arTvjBTjtISQ==/100055558139748.jpg?param=300y300" loading="lazy">
-          </div>
-          <div class="text">
-            <div class="title" style="font-size: 16px;">
-              <a href="/playlist/8185045795" class="">粤语</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="cover cover-hover">
-            <img src="https://p1.music.126.net/FLg-ePGetDLWs58nrBbKtA==/109951164031278533.jpg?param=300y300" loading="lazy">
-          </div>
-          <div class="text">
-            <div class="title" style="font-size: 16px;">
-              <a href="/playlist/5471042889" class="">英文</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="cover cover-hover">
-            <img src="https://p1.music.126.net/xe1F96UCN5arTvjBTjtISQ==/100055558139748.jpg?param=300y300" loading="lazy">
-          </div>
-          <div class="text">
-            <div class="title" style="font-size: 16px;">
-              <a href="/playlist/8725850622" class="">纯音乐</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="cover cover-hover">
-            <img src="https://p1.music.126.net/xe1F96UCN5arTvjBTjtISQ==/100055558139748.jpg?param=300y300" loading="lazy">
-          </div>
-          <div class="text">
-            <div class="title" style="font-size: 16px;">
-              <a href="/playlist/8173191976" class="">电音</a>
-            </div>
-          </div>
-        </div>
+      <div class="title">
+        <a href="/playlist/8184817453" target="_blank">国语</a>
+		<a href="/playlist/8185045795" target="_blank">粤语</a>
+		<a href="/playlist/5471042889" target="_blank">英文</a>
+		<a href="/playlist/8725850622" target="_blank">纯音乐</a>
+		<a href="/playlist/8173191976" target="_blank">电音</a>
       </div>
     </div>
     <div class="index-row">
