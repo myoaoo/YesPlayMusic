@@ -14,11 +14,6 @@
     </div>
     <div class="index-row">
       <div class="title">
-        <a href="https://yes.oaoo.top/playlist/8185045795" target="_blank">粤语</a>
-      </div>
-    </div>
-    <div class="index-row">
-      <div class="title">
         {{ $t('home.recommendPlaylist') }}
         <router-link to="/explore?category=推荐歌单">{{
           $t('home.seeMore')
